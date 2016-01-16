@@ -1,0 +1,6 @@
+In this lection we discussed next commands:
+1)git init - If you want to create new repository you should use this command.
+2)git status - For more information about your repository you can use this command.
+3) git add <fileName> - if you want to add any files to your commit, you should use this command
+
+Stagging area it's some type of buffer zone for transmission files between working directory and repository
