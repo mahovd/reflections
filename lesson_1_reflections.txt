@@ -1,0 +1,5 @@
+In first lesson we discussed next commands:
+1) Git log -- shows all commits in repository
+2) Git diff -- merges two commits and shows differences
+3) Git diff --stat shows statistics about changes (how many files were changed e.t.c.)
+4) git checkout -- switches repository's state to commit which was used in command as parameter
