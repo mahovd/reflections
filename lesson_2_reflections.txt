@@ -1,6 +1,19 @@
-In this lection we discussed next commands:
+At this lection we discussed next commands:
+
 1)git init - If you want to create new repository you should use this command.
 2)git status - For more information about your repository you can use this command.
 3) git add <fileName> - if you want to add any files to your commit, you should use this command
+4) git diff can help you to look at changes between files in working directory and staged area
+5) git diff --staged can help you to look at changes between files in staged area and last commit
+6) git reset --hard rolled back all changes in staged area and working directory
+7) git branch, this command shows you list of branches for current repository
+8) git branch <nameForNewBranch> creates new branch for current repository
+9) git checkout <branchName> switches to branch with name that was chosen
+10) git log --graph --one line <branch> <branch2> <branchN> can help you look at the whole picture of repository and branches which were chosen
+11) git merge master <branchname> merges branch with name branchname to master
+12) git show <commitID> shows you difference betwen commit with commitID and previous commit (on the apropriate branch)
+13) git branch -d <branchName> - deletes commit with <branchName> that was given as param
 
 Stagging area it's some type of buffer zone for transmission files between working directory and repository
+
+If you want merge master into your branch you should: at first switch to your branch (git checkout <branchName>), secondly run command git merge master <branchName>
