@@ -1,0 +1,3 @@
+At this lection we discussed next commands:
+
+1) Git remote - shows remote repositories for current local-repository
